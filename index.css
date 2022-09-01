@@ -1,0 +1,61 @@
+:root {
+    --daylight-blue-color: #4d96a9;
+    --light-purple-color: #855FB1;
+    --violet-color: #28283D;
+    --blue-green-color: #8FE3F9;
+    --lavenda-color: #D9B8FF;
+     foreblue-color: #87879D;
+}
+
+body {
+    background-color: #f2f2f2;
+} 
+
+.logo {
+    margin: auto;
+}
+
+footer {
+    background-color: var(--daylight-blue-color);
+}
+
+@media only screen and (min-width: 576px) {
+body {
+    width: 375px;
+    height: 100vh;
+}
+.logo {
+    margin-top: 48px;
+    margin-bottom: 52px;
+}
+
+.left {
+    display: none;
+}
+
+.right {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.logo {
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.left {
+    display: none;
+}
+
+.right {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 769px) {
+.tablet {
+    display: none;
+}
+
+}
