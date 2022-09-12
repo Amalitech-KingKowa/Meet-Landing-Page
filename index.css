@@ -200,6 +200,10 @@ article {
     margin-left: 24px;
 }
 
+.article-h {
+    font-size: 40px;
+}
+
 h6 {
     color: #4D96A9;
     font-size: 16px;
@@ -256,11 +260,156 @@ footer {
 .right {
     display: none;
 }
+
+.header-info {
+    width: 457px;
+    height: 262px;
+    margin-left: 155px;
+    margin-bottom: 80px;
+    margin-top: 72px;
 }
 
-@media only screen and (min-width: 992px) {
-.tablet {
-    display: none;
+main {
+    margin-bottom: 80px;
 }
+
+main.row.g-4.justify-content-center {
+    margin-top: 170px;
+}
+
+article {
+    width: 573px;
+    margin-left: 97px;
+    height: 240px;
+}
+
+.btn-1 {
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.btn-2 {
+    margin-bottom: 62px;
+    display: inline-block;
+}
+
+.btn-3 {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-content {
+    background-image: url("assets/tablet/image-footer-1.png");
+    height: 428px;
+    width: 768px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-p {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    height: 52px;
+    width: 573px;
+    margin-left: 97px;
+    margin-right: 98px;
+    margin-top: 32px;
+}
+}
+
+ @media only screen and (min-width: 992px) {
+
+    body {
+        width: 1440px;
+        height: 100vh;
+    }
+    .tablet {
+       display: none;
+       }   
+
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .left {
+        display: inline-block;
+    }
+
+    .right {
+        display: inline-block;
+    }
+
+    .header-info {
+        margin-left: 60px;
+    }
+
+    main.row.g-4.justify-content-center {
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 170px;
+    }
+
+    article {
+        width: 540px;
+        margin-left: 450px;
+    }
+
+    .group-icon {
+        display: block;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-around;
+        width: 1504px;
+        margin-left: -210px;
+    }
+
+    .group-icon2 {
+        display: none;
+    }
+
+    .group-icon3 {
+        margin-bottom: -30px;
+        text-align: center;
+    }
+
+    footer {
+        background-image: url("assets/desktop/desk-footer.jpg");
+        width: 1440px;
+        display: flex;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        width: 1110px;
+        padding-top: 120px;
+    }
+
+    .footer-p {
+        width: 350px;
+        height: 78px;
+    }
+
+    .footer-h {
+        padding-top: 20px;
+    }
+
+    .footer-icon {
+        margin: auto;
+    }
 
 }
