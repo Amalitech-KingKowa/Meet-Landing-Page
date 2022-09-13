@@ -52,11 +52,12 @@ p {
     width: 375px;
     height: 100vh;
   }
+
   .logo {
     margin-top: 48px;
     margin-bottom: 52px;
   }
- 
+
   .left {
     display: none;
   }
@@ -103,7 +104,7 @@ p {
   }
 
   h6 {
-    color: #4D96A9;
+    color: #4d96a9;
     font-size: 16px;
   }
 
@@ -205,7 +206,7 @@ p {
   }
 
   h6 {
-    color: #4D96A9;
+    color: #4d96a9;
     font-size: 16px;
   }
 
@@ -277,7 +278,7 @@ p {
     margin-bottom: 80px;
   }
 
-main.row.g-4.justify-content-center {
+  main.row.g-4.justify-content-center {
     margin-top: 170px;
   }
 
@@ -336,13 +337,14 @@ main.row.g-4.justify-content-center {
   }
 }
 
- @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   body {
     width: 1440px;
     height: 100vh;
   }
+
   .tablet {
-   display: none;
+    display: none;
   }   
 
   .logo {
@@ -419,5 +421,4 @@ main.row.g-4.justify-content-center {
   .footer-icon {
     margin: auto;
   }
-
 }
