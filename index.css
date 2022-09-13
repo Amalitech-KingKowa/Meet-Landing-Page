@@ -1,6 +1,6 @@
 :root {
   --daylight-blue-color: #4d96a9;
-  --light-purple-color: #855Fb1;
+  --light-purple-color: #855fb1;
   --violet-color: #28283d;
   --blue-green-color: #8fe3f9;
   --lavenda-color: #d9b8ff;
@@ -45,11 +45,6 @@ h4 {
 p {
   font-size: 16px;
   font-weight: 500;
-}
-
-footer {
-    /*background-color: var(--daylight-blue-color);*/
-    /*background-image: ;*/
 }
 
 @media only screen and (max-width: 575px) {
