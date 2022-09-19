@@ -23,6 +23,8 @@ body {
 .btn-1 {
   background-color: #4d96a9;
   border-radius: 20px;
+  width: 193px;
+  height: 45px;
 }
 
 .btn-1:hover {
@@ -32,6 +34,8 @@ body {
 .btn-2 {
   background-color: #855fb1;
   border-radius: 20px;
+  width: 139px;
+  height: 45px;
 }
 
 .btn-2:hover {
@@ -70,6 +74,8 @@ p {
     font-size: 40px;
     font-weight: 900;
     height: 88px;
+    margin-top: 46px;
+    margin-bottom: 26px;
   }
 
   .btn-1 {
@@ -119,9 +125,15 @@ p {
     height: 540px;
   }
 
+  .group-icon2 {
+    z-index: 6;
+    margin-bottom: -25px;
+  }
+
   .footer-content {
     background-image: url("assets/mobile/footer-moblie.svg");
     height: 428px;
+    z-index: 2;
   }
 
   .footer-p {
@@ -169,6 +181,8 @@ p {
     font-size: 40px;
     font-weight: 900;
     height: 88px;
+    margin-top: 46px;
+    margin-bottom: 26px;
   }
 
   .btn-1 {
@@ -220,9 +234,15 @@ p {
     align-items: center;
   }
 
+  .group-icon2 {
+    z-index: 6;
+    margin-bottom: -25px;
+  }
+
   .footer-content {
     background-image: url("assets/mobile/footer-moblie.svg");
     height: 428px;
+    z-index: 2;
   }
 
   .footer-p {
@@ -317,6 +337,7 @@ p {
     background-image: url("assets/tablet/image-footer-1.png");
     height: 428px;
     width: 768px;
+    z-index: 2;
   }
 
   footer {
@@ -387,7 +408,8 @@ p {
   }
 
   .group-icon2 {
-    display: none;
+    display: block;
+    z-index: 6;
   }
 
   .group-icon3 {
@@ -397,16 +419,19 @@ p {
   }
 
   footer {
-    background-image: url("assets/desktop/desk-footer.jpg");
+    /*background-image: url("assets/desktop/desk-footer.jpg");*/
     width: 1440px;
     display: flex;
   }
 
   .footer-content {
+    background-image: url("assets/desktop/desk-footer.jpg");
     display: flex;
     flex-direction: row;
-    width: 1110px;
+    width: 1440px;
     padding-top: 120px;
+    z-index: 2;
+    height: 308px;
   }
 
   .footer-p {
@@ -416,6 +441,7 @@ p {
 
   .footer-h {
     padding-top: 20px;
+    margin-left: 165px;
   }
 
   .footer-icon {
