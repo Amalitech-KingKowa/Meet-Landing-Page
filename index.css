@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #f2f2f2;
   margin: auto;
 }
 
@@ -25,6 +24,12 @@ body {
   border-radius: 20px;
   width: 193px;
   height: 45px;
+  border: none;
+}
+
+span {
+  color: #4d96a9;
+  opacity: 0.8;
 }
 
 .btn-1:hover {
@@ -36,6 +41,7 @@ body {
   border-radius: 20px;
   width: 139px;
   height: 45px;
+  border: none;
 }
 
 .btn-2:hover {
@@ -385,6 +391,26 @@ p {
     margin-left: 60px;
   }
 
+  h1 {
+    font-size: 64px;
+    font-weight: 900;
+    height: 128px;
+    margin-bottom: 34px;
+    margin-top: 4px;
+  }
+
+  p {
+    font-size: 18px;
+    height: 52px;
+    margin-bottom: 32px;
+    width: 500px;
+  }
+
+  h6 {
+    font-weight: 900;
+    height: 26px;
+  }
+
   main.row.g-4.justify-content-center {
     margin-left: 165px;
     margin-right: 165px;
@@ -396,15 +422,23 @@ p {
     margin-left: 450px;
   }
 
+  .article-h {
+    font-size: 40px;
+    font-weight: 900;
+    height: 88px;
+    width: 445px;
+    align-items: center;
+  }
+
   .group-icon {
     display: block;
   }
 
   .hero-section {
     display: flex;
-    justify-content: space-around;
-    width: 1504px;
-    margin-left: -210px;
+    justify-content: space-between;
+    width: 1440px;
+    margin-left: -250px;
   }
 
   .group-icon2 {
