@@ -29,7 +29,7 @@ Clone the repository to your local machine through your code editor using git cl
 ### Usage
 ### Run tests
 ### Deployment
-https://KingKowa1.github.io/......../
+https://stalwart-torrone-7109ab.netlify.app/
 
 ### Authors
 
